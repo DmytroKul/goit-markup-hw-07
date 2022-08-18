@@ -1,0 +1,85 @@
+//btn-request
+$main-cl: #ffffff;
+
+.btn-request {
+  background-color: #2196f3;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px 32px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: $main-cl;
+  cursor: pointer;
+}
+
+/* btn-footer */
+
+.btn__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: $main-cl;
+
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 28px 10px 28px;
+}
+
+// button__filters
+
+.btn__filters {
+  padding: 6px 22px;
+  border: none;
+  cursor: pointer;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(16 / 12);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &--active:focus,
+  &--active:hover {
+    background-color: var(--accent-color);
+    color: #fff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
+// .btn__filters--active:focus {
+//   background-color: var(--accent-color);
+//   color: #fff;
+//   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+//     0px 2px 2px rgba(0, 0, 0, 0.12);
+// }
+// .btn__filters--active:hover {
+//   color: #fff;
+//   background-color: var(--accent-color);
+//   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+//     0px 2px 2px rgba(0, 0, 0, 0.12);
+
+// }
