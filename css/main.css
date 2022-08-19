@@ -750,7 +750,7 @@ p {
   fill: var(--accent-color);
 }
 
-.hero__conteiner {
+.hero-conteiner {
   padding-top: 200px;
   padding-bottom: 200px;
   margin: 0 auto;
