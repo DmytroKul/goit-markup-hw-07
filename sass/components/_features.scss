@@ -94,3 +94,104 @@
 //
 //
 //
+
+// /about
+//conteiner-about
+// mobail
+
+@media screen and (min-width: 480px) {
+  .conteiner-about {
+    width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 479px) {
+  .about__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 479px) {
+  .about__icon {
+    width: 450;
+    height: 120px;
+  }
+}
+
+// table
+@media screen and (min-width: 768px) {
+  .conteiner-about {
+    width: 768px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about__icon {
+    width: 354;
+    height: 120px;
+  }
+}
+@media screen and (min-width: 768px) {
+}
+
+// dasctop
+
+@media screen and (min-width: 1200px) {
+  .conteiner-about {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 120px) {
+  .about__list {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+//
+//
+//
+//
+
+//
+//
+//
+//
+@media screen and (min-width: 480px) {
+  .benefits {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .benefits {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .benefits {
+    display: flex;
+  }
+}
+//
+//
+//
+//
+//

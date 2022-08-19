@@ -1,10 +1,11 @@
 .about__list {
   display: flex;
+  gap: 30px;
 }
 
-.about__item:nth-child(n + 2) {
-  margin-left: 30px;
-}
+// .about__item:nth-child(n + 2) {
+//   margin-left: 30px;
+// }
 
 .about__item {
   width: 270px;
