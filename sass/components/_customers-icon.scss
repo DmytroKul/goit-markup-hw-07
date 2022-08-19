@@ -25,11 +25,15 @@
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &--active:hover,
-  --active:focus {
+  &--active:focus {
     border-color: var(--accent-color);
     color: var(--accent-color);
   }
+  .customers__icon {
+    fill: currentColor;
+  }
 }
+
 // .customers__link--active:hover {
 //   border-color: var(--accent-color);
 //   color: var(--accent-color);

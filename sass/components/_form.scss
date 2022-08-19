@@ -1,34 +1,3 @@
-.backdrop {
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-.backdrop.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-  visibility: hidden;
-}
-.modal {
-  position: absolute;
-
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  min-width: 528px;
-  min-height: 581px;
-  padding: 40px;
-
-  background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-}
-
 .icon-close {
   width: 18px;
   height: 18px;
@@ -37,9 +6,7 @@
   align-items: center;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn-close .icon-close:hover {
-  fill: var(--accent-color);
-}
+
 .btn-close {
   display: block;
   background-color: #ffffff;
@@ -51,7 +18,12 @@
   right: 8px;
   fill: #000000;
   cursor: pointer;
+  & .icon-close:hover,
+  &.icon-close:focus {
+    fill: var(--accent-color);
+  }
 }
+
 .btn-submit {
   padding: 10px 52px;
   font-family: 'Roboto';
@@ -102,10 +74,6 @@
   letter-spacing: 0.01em;
   text-align: left;
   color: #757575;
-}
-
-.register__message--active:focus {
-  border-color: #2196f3;
 }
 
 .register-group {
@@ -160,7 +128,14 @@
   letter-spacing: 0.01em;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &--active:focus {
+    border-color: #2196f3;
+  }
 }
+
+// .register__message--active:focus {
+//   border-color: #2196f3;
+// }
 
 .register__message::placeholder {
   color: rgba(33, 33, 33, 0.2);

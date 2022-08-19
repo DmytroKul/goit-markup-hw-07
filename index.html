@@ -18,7 +18,6 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/main.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
 
     <title>WebStudio</title>
   </head>
@@ -27,7 +26,7 @@
     <header class="header">
       <div class="conteiner__header conteiner">
         <nav class="nav">
-          <a class="logo" href="/">Web<span class="logo__dark">Studio</span></a>
+          <a class="logo" href="/">Web<span class="logo-dark">Studio</span></a>
           <ul class="nav__list list">
             <li class="nav__item">
               <a class="nav__link nav__link--active nav__link--current link" href="./index.html"
@@ -72,7 +71,9 @@
             Ефективні рішення для <br />
             вашого бізнесу
           </h1>
-          <button class="btn-request" type="button" data-modal-open>Замовити послугу</button>
+          <button class="btn-request btn-primary" type="button" data-modal-open>
+            Замовити послугу
+          </button>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
               <button type="button" class="btn-close" data-modal-close>
@@ -547,7 +548,7 @@
                 required
               />
 
-              <button type="submit" class="btn__footer">
+              <button type="submit" class="btn__footer btn-primary">
                 <span class="span-follow-footer">Підписатися</span
                 ><svg class="icon-send">
                   <use href="./images/svg/sprite.svg#icon-icon-send"></use>

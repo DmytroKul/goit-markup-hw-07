@@ -20,6 +20,7 @@
 }
 
 .nav__link {
+  position: relative;
   transition: 250ms;
   font-style: normal;
   font-weight: 500;
@@ -28,19 +29,19 @@
   letter-spacing: 0.02em;
   color: #212121;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &--active:hover,
+  &--active:focus {
+    color: var(--accent-color);
+  }
 }
 
-.nav__link--active:hover {
-  color: var(--accent-color);
-}
+// .nav__link--active:hover {
+//   color: var(--accent-color);
+// }
 
-.nnav__link--active:focus {
-  color: var(--accent-color);
-}
-
-.nav__link {
-  position: relative;
-}
+// .nav__link--active:focus {
+//   color: var(--accent-color);
+// }
 
 .nav__link--active::after {
   content: '';
