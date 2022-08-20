@@ -18,6 +18,9 @@
   &--active:focus {
     background-color: var(--accent-color);
   }
+  &--active .follow__icon {
+    fill: #ffffff;
+  }
 }
 
 // .follow__link--active:hover {
@@ -28,6 +31,6 @@
 //   background-color: var(--accent-color);
 // }
 
-.follow__link--active .follow__icon {
-  fill: #ffffff;
-}
+// .follow__link--active .follow__icon {
+//   fill: #ffffff;
+// }
